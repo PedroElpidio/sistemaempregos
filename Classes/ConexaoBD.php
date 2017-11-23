@@ -1,5 +1,5 @@
 <?php
-
+/*o juan é um cusao do caralho, e o nayrton é boiola*/
 /**
  * Classe que efetua a conexao com o banco de dados.
  *

@@ -1,0 +1,217 @@
+/*importando fonte Aileron do servidor*/
+@font-face{
+    font-family: Aileron;
+    src: url(fonts/Aileron-Thin.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*css reset*/ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{font-family: Aileron; font: Aileron;}
+
+.container{
+    background-color: rgba(255,255,255,1);
+    max-width: 3840px;
+    width: 100%;
+    float: left;
+}
+
+.menu{
+    background-color: rgba(33,127,82,1);
+    width: 100%;
+    max-height: 50px;
+    height: 50px;
+    color: rgba(255,255,255,1);
+    position: fixed;
+    float: left;
+}
+
+.logo{
+    height: 40px;
+    padding: 5px 0px;
+    margin-left: 10px;
+    position: fixed;
+    float: left;
+}
+.logo:hover{opacity: 0.90;}
+
+.bar_login, .bar_pesquisa{
+    height: 100%;
+    padding: 0 20px;
+    float: right;
+}
+
+._usuario{ 
+    padding-left: 120px;
+}
+
+.ft_usuario{
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+}
+
+input{
+    border: 0px;
+    border-radius: 3px;
+    padding: 0 5px;
+    margin: 13px 5px;
+    height: 23px;
+}
+
+.link, .editarPerfil, .encerrar{
+    display: inline-block;
+}
+
+a:visited, a:hover, a{text-decoration: none; color: rgba(255,255,255,1);}
+
+.buttom{
+    color: rgba(255,255,255,1);
+    background: rgba(53,204,131,1);
+}
+
+.buttom:hover{background: rgba(53,204,131,0.75);}
+
+.conteudo_home, .conteudo_paginas{
+    width: 100%;
+    margin-top: 100px ;
+}
+
+.conteudo_paginas{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 750px;
+    float: left;
+    background: red;
+}
+
+
+.conteudo_paginas input {
+    margin: 5px;
+    display: inline-block;
+    float: right;
+    
+}
+
+.empresa, .candidato, .topVagas, .topEmpresas, .contratados{
+    border-radius: 8px;
+    border: 1px solid rgba(16,64,41,0.8);
+    float: left;
+}
+
+.topVagas, .topEmpresas{
+    max-width: 49.6%;
+    width: 37%;
+    height: 250px;
+    margin-bottom: 20px;
+    background-color: rgba(33,204,131,0.075);
+}
+
+.empresa, .candidato, .contratados{
+    height: 200px;
+    max-width: 33.3%;
+    width: 25%;
+}
+
+.topEmpresas{
+    margin-right: 12%;
+    margin-left: 0.75%;
+}
+
+.topVagas{
+    margin-left: 12%;
+    margin-right: 0.75%;
+}
+
+.empresa{
+    background: url(../img/empresa.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 12%;
+}
+
+.candidato{
+    background: url(../img/candidato.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+}
+
+.contratados{
+    background: url(../img/contratado.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 12%;
+}
+
+.h1_buttom{
+    padding: 10px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 8px 8px 0 0;
+    color: rgba(33,127,82,1);
+}
+
+.empresa .buttom, .candidato .buttom, .topVagas .buttom, .topEmpresas .buttom{
+    float: right;
+    margin-top: 60px;
+    margin-right: 15px;
+    vertical-align: bottom;
+}
+
+.info_user{
+    width: 99%;
+    margin: 1px 0.5%;
+    background: blue;
+    float: left;
+    border: 1px solid rgba(16,64,41,0.8);
+    border-radius: 3px;
+}
+
+.col_esq1{
+    margin: 5px 0.45%;
+    width: 39%;
+    height: 250px;
+    background: green;
+    border: 1px solid rgba(16,64,41,0.8);
+    float: left;
+    clear: left;
+    border-radius: 3px;
+}
+.col_esq2{
+    margin: 5px 0.45%;
+    width: 39%;
+    height: 350px;
+    background: green;
+    border: 1px solid rgba(16,64,41,0.8);
+    float: left;
+    clear: left;
+    border-radius: 3px;
+}
+
+.col_dir{
+    margin: 5px 0.3%;
+    width: 59%;
+    height: 600px;
+    background: yellow;
+    border: 1px solid rgba(16,64,41,0.8);
+    float: right;
+    border-radius: 3px;
+}
+p{
+    margin-left: 15px;
+}
+
+.rodape{
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    vertical-align: bottom;
+    text-align: center;
+    clear: both;
+}
